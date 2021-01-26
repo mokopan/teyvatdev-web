@@ -4,7 +4,7 @@ const Home = (): React.ReactNode => {
   return (
     <Layout>
       <div className="max-w-screen-md px-6 pb-12 mx-auto md:pb-24">
-        <h1 className="text-6xl text-center font-bold">
+        <h1 className="lg:text-6xl text-3xl text-center font-bold">
           Elevate your Genshin Development Experience
         </h1>
         <p className="mt-10 text-center relative">
@@ -12,16 +12,16 @@ const Home = (): React.ReactNode => {
           errors with a comprehensive API utilising GraphQL or RESFUL
           architectures.
         </p>
-        <div className="mt-10 text-center relative space-between">
+        <div className="flex-col items-center lg:flex-row flex mt-10 text-center">
           <a
             href="#"
-            className="text-lg border bg-primary border-primary rounded-full px-12 py-4 m-2."
+            className="lg:ml-auto text-lg border bg-primary border-primary rounded-full px-12 py-4 m-2."
           >
             Get Started
           </a>
           <a
             href="#"
-            className="text-lg border border-gray-300 rounded-full px-12 py-4 m-2"
+            className="lg:mr-auto text-lg border border-gray-300 rounded-full px-12 py-4 m-2"
           >
             Read docs
           </a>
@@ -38,8 +38,8 @@ const Home = (): React.ReactNode => {
         </div>
       </div>
       <div className="bg-black">
-        <div className="container mx-auto px-36 pb-36">
-          <h1 className="text-6xl font-bold py-32">
+        <div className="container mx-auto lg:px-36 px-6 lg:pb-36 pb-6">
+          <h1 className="lg:text-6xl text-3xl font-bold lg:py-32 py-16">
             Experience the <span className="text-primary">Teyvat.dev API</span>
           </h1>
           <div className="grid grid-cols-12 gap-4">

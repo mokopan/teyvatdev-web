@@ -1,7 +1,7 @@
 const Footer = ():JSX.Element => {
   return (
     <footer className=" bg-footer-background bg-30% bg-no-repeat bg-right">
-      <div className="mt-32 container flex justify-between max-w-screen-lg">
+      <div className="mt-32 container flex lg:flex-row flex-col justify-between max-w-screen-lg">
         <div className="text-center grid gap-y-7">
           <p className="font-bold">Contact Us</p>
           <p>Discord Server</p>
@@ -18,7 +18,7 @@ const Footer = ():JSX.Element => {
             </a>
           </div>
         </div>
-        <div className="relative">
+        <div className="relative lg:block hidden">
           <img className="animate-bounce mt-4 md:mt-0 md:h-24" src="/white-slime.svg" />
         </div>
         <div className="text-center grid gap-y-7">
